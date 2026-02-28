@@ -22,6 +22,7 @@
 ### 1. 安装依赖
 
 ```bash
+git clone https://github.com/LiMin1314520/file-server.git
 cd file-server
 pip install -r requirements.txt
 ```
