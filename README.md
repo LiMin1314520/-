@@ -160,13 +160,13 @@ A: 文件存储在服务器本地的 `uploads/{username}/` 目录中。
 A: 需要配置服务器公网访问或内网穿透，设备间通过服务器访问同一账户即可。
 
 ### Q: 如何备份文件？
-A: 定期备份 `uploads/` 目录和 `users.json` 文件。
+A: 定期备份uploads/目录和users.json文件。
 
 ### Q: 忘记密码怎么办？
-A: 管理员可以编辑 `users.json` 文件重置用户密码哈希值。
+A: 管理员可以编辑users.json文件重置用户密码哈希值。
 
 ### Q: 如何修改上传文件大小限制？
-A: 修改 `app.py` 中的 `MAX_CONTENT_LENGTH` 配置。
+A: 修改app.py中的MAX_CONTENT_LENGTH配置。
 
 ## 许可证
 
